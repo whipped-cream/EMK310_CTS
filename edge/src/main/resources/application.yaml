@@ -1,0 +1,10 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - za.ac.up.emk310.SerializationKt.configureSerialization
+      - za.ac.up.emk310.SecurityKt.configureSecurity
+      - za.ac.up.emk310.StatusPagesKt.configureStatusPages
+      - za.ac.up.emk310.PostgresKt.configurePostgres
+      - za.ac.up.emk310.RoutingKt.configureRouting
