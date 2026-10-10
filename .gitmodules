@@ -1,0 +1,4 @@
+[submodule "core/ags"]
+	path = core/ags
+	url = https://github.com/whipped-cream/EMK310_AGS
+	branch = kotlin-port
